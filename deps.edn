@@ -1,4 +1,5 @@
 {:deps  {fulcrologic/fulcro-incubator {:mvn/version "0.0.17"}
          fulcrologic/fulcro           {:mvn/version "2.6.15"}
-         cider/cider-nrepl            {:mvn/version "0.19.0-SNAPSHOT"}}
+         cider/cider-nrepl            {:mvn/version "0.19.0-SNAPSHOT"}
+         com.wsscode/pathom           {:mvn/version "2.2.0-RC5"}}
  :paths ["src"]}

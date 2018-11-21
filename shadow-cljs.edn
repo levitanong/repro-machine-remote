@@ -1,7 +1,7 @@
 {:deps   true
  :builds {:app {:target     :browser
                 :devtools   {:http-root "resources/public"
-                             :http-port 3000}
+                             :http-port 4000}
                 :output-dir "resources/public/js/app"
                 :asset-path "js/app"
                 :modules    {:main {:entries [app.core]

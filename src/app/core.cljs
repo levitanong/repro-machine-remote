@@ -45,7 +45,7 @@
   (dom/div
     (dom/button {:onClick (fn []
                             (uism/trigger! this ::foo :do-stuff))}
-      "Derp")))
+      "Remote mutation on custom remote")))
 
 (pc/defmutation some-remote-mutation
   [env params]
@@ -81,7 +81,7 @@
   (pn/pathom-remote
    (rest-parser app {})))
 
-(defcard-fulcro derpes
+(defcard-fulcro Broken
   Root
   {}
   {:fulcro {:networking {:custom (new-custom-remote app)}}})
